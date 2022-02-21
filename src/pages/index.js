@@ -1,9 +1,14 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react"
 
-import Layout from "../components/common/layout"
-import Seo from "../components/common/seo"
+import {
+  Intro,
+  LoveToDo,
+  Portfolio,
+  About,
+  Skill,
+  Contact,
+} from "../components"
+import { Layout, SEO } from "../components/common"
 
 const IndexPage = () => (
   <Layout>
